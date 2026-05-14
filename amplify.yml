@@ -3,10 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
+        - npm install
     build:
       commands:
-        - npx react-scripts build
+        - npm run build
   artifacts:
     baseDirectory: build
     files:
